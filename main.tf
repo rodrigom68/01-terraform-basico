@@ -3,13 +3,10 @@ provider "aws" {
   
 }
 
-resource "aws_s3_bucket" "secondBucketTeste" {
-    bucket = "secondBucket170720232355"
-    acl    = "public"     
-
-
+resource "aws_s3_bucket" "secondBucketXXXrm68170720232355" {
+    bucket = "secondBucket"    
 tags = {
-        name        = "second bucket"
+        name        = "second_bucketrm68180720230009"
         Environment = "Dev"
         Managedby   = "Terraform"
     }
